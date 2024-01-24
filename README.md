@@ -1,7 +1,20 @@
 # cb-palettes
+
+[![GitHub version](https://badge.fury.io/gh/tjkessler%2Fcb-palettes.svg)](https://badge.fury.io/gh/tjkessler%2Fcb-palettes)
+[![PyPI version](https://badge.fury.io/py/cb-palettes.svg)](https://badge.fury.io/py/cb-palettes)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://raw.githubusercontent.com/tjkessler/cb-palettes/master/LICENSE.txt)
+
 A collection of cb-friendly color palettes
 
 ## Installation
+
+From PyPI:
+
+```
+$ pip install cb-palettes
+```
+
+From source:
 
 ```
 $ git clone https://github.com/tjkessler/cb-palettes
