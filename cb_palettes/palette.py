@@ -14,11 +14,21 @@ class Palette:
         return len(self.colors_)
 
     @property
+    def hex(self) -> Tuple[str]:
+
+        return tuple(c.hex for c in self.colors_)
+
+    @property
+    def hsv(self) -> Tuple[Tuple[float]]:
+
+        return tuple(c.hsv for c in self.colors_)
+
+    @property
     def rgb(self) -> Tuple[Tuple[int]]:
 
         return tuple(c.rgb for c in self.colors_)
     
     @property
-    def hex(self) -> Tuple[str]:
+    def rgb_norm(self) -> Tuple[Tuple[float]]:
 
-        return tuple(c.hex for c in self.colors_)
+        return tuple(c.rgb_norm for c in self.colors_)

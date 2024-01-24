@@ -28,3 +28,8 @@ class Color:
     def rgb(self) -> Tuple[int]:
 
         return (self.r_, self.g_, self.b_)
+    
+    @property
+    def rgb_norm(self) -> Tuple[float]:
+
+        return (self.r_ / 255.0, self.g_ / 255.0, self.b_ / 255.0)
